@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Elementos de Interés en Bootstrap</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor"
+      crossorigin="anonymous"
+    />
+  </head>
+  <body>
+    <div class="container">
+      <section>
+        <h1 class="fs-1 mt-5 display-5 fw-bolder">Custom jumbotron</h1>
+        <p class="fs-5 display-6 fw-normal lh-base col-md-7 mt-3">
+          Using a series of utilities, you can create this jumbotron, just like
+          the one in previous versions of Bootstrap. Check out the examples
+          below for how you can remix and restyle it to your liking.
+        </p>
+        <button
+          type="button"
+          class="btn btn-primary"
+          data-bs-toggle="modal"
+          data-bs-target="#modal-ejemplo"
+        >
+          Call to action
+        </button>
+        <div class="modal" id="modal-ejemplo">
+          <div class="modal-dialog">
+            <div class="modal-content">
+              <div class="modal-header">Este es el header del modal</div>
+              <div class="modal-body">Este es el body del modal</div>
+              <div class="modal-footer">
+                <button class="btn btn-outline-success" data-bs-dismiss="modal">
+                  Accept
+                </button>
+                <button class="btn btn-outline-danger" data-bs-dismiss="modal">
+                  Close
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <hr />
+      <section>
+        <form class="mt-4" action="">
+                <div class="mb-3">
+                  <label for="inputName" class="form-label">Name</label>
+                  <input type="text" class="form-control" id="inputName" aria-describedby="nameHelp" required>
+                </div>
+                <div class="mb-3">
+                  <label for="inputPhone" class="form-label">Phone number</label>
+                  <input type="number" class="form-control" id="inputPhone">
+                </div>
+                <div class="mb-3">
+                    <label for="inputTextArea" class="form-label">Text area to describe yourself</label>
+                    <textarea class="form-control" id="inputTextArea" rows="3" style="resize:none;"></textarea>
+                  </div>
+                <div class="mb-3 form-check">
+                  <input type="checkbox" class="form-check-input" id="exampleCheck1" required>
+                  <label class="form-check-label" for="exampleCheck1">Check me out</label>
+                </div>
+                <button type="submit" class="btn btn-primary">Submit</button>
+        </form>
+      </section>
+      <hr>
+      <section>
+        <div class="card mt-4" style="width: 18rem;">
+            <div class="card-body text-bg-dark">
+                <h5 class="card-title fs-5 ">Desarrollador de Software</h5>
+                <p class="card-text mt-4 fs-6">Mi nombre es Manuel Turlan y actualmente estoy estudiando programación para convertirme en un desarrollador de software</p>
+            </div>
+            <div class="card-footer">
+                <a href="mailto:manuelturlan14@gmail.com" class="card-link">Email</a>
+            </div>
+        </div>
+      </section>
+    </div>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2"
+      crossorigin="anonymous"
+    ></script>
+    <script></script>
+  </body>
+</html>
